@@ -6,44 +6,44 @@ function App() {
 
       <h2>Alunos</h2>
 
-      <Aluno nome="Carlos" turma="DS" />
-      <Aluno nome="Ana" turma="DS" />
-      <Aluno nome="Pedro" turma="DS" />
+      <Aluno nome="Caetano" turma="DS" />
+      <Aluno nome="Gustavo" turma="DS" />
+      <Aluno nome="Assper" turma="DS" />
 
       <h2>Notas</h2>
 
-      <Nota disciplina="React" nota={8.5} />
-      <Nota disciplina="JavaScript" nota={9} />
-      <Nota disciplina="HTML e CSS" nota={10} />
+      <Nota disciplina="React" nota={5.5} />
+      <Nota disciplina="JavaScript" nota={7} />
+      <Nota disciplina="HTML e CSS" nota={6.7} />
 
       <h2>Produtos</h2>
 
       <div className="produtos">
         <Produto
-          nome="Teclado Mecânico"
-          descricao="Teclado com iluminação RGB"
-          preco={250}
+          nome="Mouse gaymer"
+          descricao="Mouse com iluminação LGBT"
+          preco={350}
           disponivel={true}
         />
 
         <Produto
-          nome="Mouse"
-          descricao="Mouse sem fio"
-          preco={120}
+          nome="Teclado gaymer"
+          descricao="Teclado gaymer sem fio magnético"
+          preco={670}
           disponivel={true}
         />
 
         <Produto
           nome="Monitor"
-          descricao="Monitor Full HD"
-          preco={800}
+          descricao="Monitor 4K"
+          preco={1000}
           disponivel={false}
         />
 
         <Produto
           nome="Headset"
-          descricao="Headset para jogos"
-          preco={180}
+          descricao="Headset para playar games"
+          preco={200}
           disponivel={true}
         />
       </div>
